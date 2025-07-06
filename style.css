@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+#one {
+    border-spacing: 10px;
+}
+
+#one td {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(237, 217, 255, 0.959);
+    color: rgba(237, 217, 255, 0.959);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+    border: 2px solid rgba(189, 190, 190, 0.507);
+    cursor: pointer;
+
+}
+
+#one td:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 206, 240);
+}
